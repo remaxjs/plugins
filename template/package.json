@@ -1,0 +1,17 @@
+{
+  "name": "@remax/plugin-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechat",
+    "miniprogram",
+    "remax"
+  ],
+  "author": "Wei Zhu <yesmeck@gmail.com>",
+  "license": "MIT"
+}

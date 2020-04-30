@@ -1,8 +1,7 @@
 {
-  "name": "@remax/plugin-template",
+  "name": "@remax/plugin-stylus",
   "version": "1.0.0",
-  "private": true,
-  "description": "",
+  "description": "Remax Stylus 插件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +12,12 @@
     "remax"
   ],
   "author": "Wei Zhu <yesmeck@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "remax": "> 2.0.0"
+  },
+  "dependencies": {
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
+  }
 }

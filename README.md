@@ -6,9 +6,9 @@ Remax 官方插件库。
 
 |        |             |
 |--------|-------------|
-| less   | Less 支持   |
-| sass   | Sass 支持   |
-| stylus | Stylus 支持 |
+| [less](packages/less)   | Less 支持   |
+| [sass](packages/sass)   | Sass 支持   |
+| [stylus](packages/stylus) | Stylus 支持 |
 
 ## LICENSE
 

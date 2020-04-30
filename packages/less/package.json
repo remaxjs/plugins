@@ -1,8 +1,7 @@
 {
-  "name": "@remax/plugin-template",
+  "name": "@remax/plugin-less",
   "version": "1.0.0",
-  "private": true,
-  "description": "",
+  "description": "Remax Less 插件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +12,11 @@
     "remax"
   ],
   "author": "Wei Zhu <yesmeck@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "less-loader": "^6.0.0"
+  },
+  "peerDependencies": {
+    "remax": "> 2.0.0"
+  }
 }

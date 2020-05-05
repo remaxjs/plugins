@@ -1,6 +1,6 @@
 {
   "name": "@remax/plugin-stylus",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Remax Stylus 插件",
   "main": "index.js",
   "scripts": {

@@ -1,7 +1,7 @@
 const less = (options) => {
   return {
     configWebpack({ addCSSRule }) {
-      createCSSRule({
+      addCSSRule({
         name: 'less',
         test: /\.less(\?.*)?$/,
         loader: require.resolve('less-loader'),

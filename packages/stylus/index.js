@@ -1,7 +1,7 @@
 const stylus = (options) => {
   return {
     configWebpack({ addCSSRule }) {
-      createCSSRule({
+      addCSSRule({
         name: 'stylus',
         test: /\.styl(us)?(\?.*)?$/,
         loader: require.resolve('stylus-loader'),

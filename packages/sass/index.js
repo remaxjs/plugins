@@ -1,7 +1,7 @@
 const sass = (options) => {
   return {
     configWebpack({ addCSSRule }) {
-      createCSSRule({
+      addCSSRule({
         name: 'sass',
         test: /\.s[ac]ss(\?.*)?$/,
         loader: require.resolve('sass-loader'),

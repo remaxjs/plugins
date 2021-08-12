@@ -17,7 +17,7 @@
     "remax": "> 2.0.0"
   },
   "dependencies": {
-    "node-sass": "^4.14.0",
+    "sass": "^1.37.5",
     "sass-loader": "^8.0.2"
   },
   "publishConfig": {

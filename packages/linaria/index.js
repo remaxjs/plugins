@@ -1,5 +1,4 @@
 const linaria = () => {
-    console.log(require.resolve('@linaria/webpack-loader'));
     return {
         configWebpack({config}) {
             config.module

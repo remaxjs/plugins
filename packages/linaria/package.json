@@ -11,7 +11,7 @@
     "miniprogram",
     "remax"
   ],
-  "author": "Watsonhaw <wangjue5577w@gmail.com>",
+  "author": "Watsonhaw <wangjue5577@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.15.0",

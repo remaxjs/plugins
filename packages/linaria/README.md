@@ -18,7 +18,9 @@ $ yarn add @remax/plugin-linaria linaria @linaria/shaker @linaria/babel-preset
 const linaria = require('@remax/plugin-linaria');
 
 module.exports = {
-    plugins: [linaria()],
+    plugins: [linaria({
+        sourceMap: process.env.NODE_ENV !== 'production', // 生产环境不打印sourceMap
+    })],
 };
 ```
 
@@ -37,6 +39,7 @@ module.exports = {
 ```
 
 ## 根目录新增 linaria.config.js 并配置
+
 ```js
 module.exports = {
     rules: [

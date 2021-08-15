@@ -1,6 +1,6 @@
 {
   "name": "@remax/plugin-linaria",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remax linaria 插件",
   "main": "index.js",
   "scripts": {

@@ -1,0 +1,27 @@
+{
+  "name": "@remax/plugin-linaria",
+  "version": "1.0.0",
+  "description": "Remax linaria 插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechat",
+    "miniprogram",
+    "remax"
+  ],
+  "author": "Watsonhaw <wangjue5577w@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@linaria/shaker": "^3.0.0-beta.7",
+    "@linaria/webpack-loader": "^3.0.0-beta.7"
+  },
+  "peerDependencies": {
+    "remax": "> 2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

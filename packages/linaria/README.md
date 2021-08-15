@@ -1,4 +1,4 @@
-# @remax/plugin-stylus
+# @remax/plugin-linaria
 
 增加 linaria css in js支持。
 

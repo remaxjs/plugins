@@ -51,13 +51,13 @@ const defaultShareApiList = [
 
 ```js
 // remax.config.js
-const WxShare = require('@remax/plugin-wx-share');
+const WxShake = require('@remax/plugin-wx-shake');
 
 // eg: 只需要移除微信运动接口
 const apiList = ['getWeRunData']
 
 module.exports = {
-    plugins: [WxShare({apiList})],
+    plugins: [WxShake({apiList})],
 };
 ```
 

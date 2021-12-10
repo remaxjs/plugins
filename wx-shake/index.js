@@ -13,7 +13,7 @@ const defaultShareApiList = [
     'addPhoneCalender',
     'saveFileToDisk',
 ]
-const WxShare = ({apiList}) => {
+const WxShake = ({apiList}) => {
     return {
         configWebpack({config}) {
             config.module

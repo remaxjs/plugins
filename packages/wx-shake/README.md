@@ -18,10 +18,10 @@ $ yarn add @remax/plugin-wx-shake -D
 
 ```js
 // remax.config.js
-const WxShare = require('@remax/plugin-wx-share');
+const WxShark = require('@remax/plugin-wx-shake');
 
 module.exports = {
-    plugins: [WxShare()],
+    plugins: [WxShark()],
 };
 ```
 

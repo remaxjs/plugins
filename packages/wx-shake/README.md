@@ -9,7 +9,7 @@
 ## 安装
 
 ```bash
-$ npm install @remax/plugin-stylus --save
+$ npm install @remax/plugin-wx-shake --save
 或者
 $ yarn add @remax/plugin-wx-shake -D
 ```
@@ -18,10 +18,10 @@ $ yarn add @remax/plugin-wx-shake -D
 
 ```js
 // remax.config.js
-const WxShare = require('@remax/plugin-wx-share');
+const WxShake = require('@remax/plugin-wx-shake');
 
 module.exports = {
-    plugins: [WxShare()],
+    plugins: [WxShake()],
 };
 ```
 
@@ -32,7 +32,7 @@ module.exports = {
 默认以下数组,注意参数拼写为`apiList`。
 
 ```js
-const defaultShareApiList = [
+const defaultShakeApiList = [
     'getWeRunData',
     'chooseLocation',
     'chooseInvoiceTitle',

@@ -18,10 +18,10 @@ $ yarn add @remax/plugin-wx-shake -D
 
 ```js
 // remax.config.js
-const WxShark = require('@remax/plugin-wx-shake');
+const WxShake = require('@remax/plugin-wx-shake');
 
 module.exports = {
-    plugins: [WxShark()],
+    plugins: [WxShake()],
 };
 ```
 
@@ -32,7 +32,7 @@ module.exports = {
 默认以下数组,注意参数拼写为`apiList`。
 
 ```js
-const defaultShareApiList = [
+const defaultShakeApiList = [
     'getWeRunData',
     'chooseLocation',
     'chooseInvoiceTitle',

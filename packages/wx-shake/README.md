@@ -9,7 +9,7 @@
 ## 安装
 
 ```bash
-$ npm install @remax/plugin-stylus --save
+$ npm install @remax/plugin-wx-shake --save
 或者
 $ yarn add @remax/plugin-wx-shake -D
 ```

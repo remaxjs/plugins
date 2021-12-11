@@ -1,6 +1,6 @@
 {
   "name": "@remax/plugin-wx-shake",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "移除remax中没有使用过的wx接口",
   "main": "index.js",
   "scripts": {

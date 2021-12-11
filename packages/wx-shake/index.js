@@ -42,3 +42,4 @@ const WxShake = ({apiList}) => {
         }
     }
 };
+module.exports = WxShake;

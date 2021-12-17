@@ -1,5 +1,5 @@
 {
-  "name": "@remax/plugin-esbuild",
+  "name": "@remax/plugin-minify",
   "version": "1.0.0",
   "description": "使用esbuild压缩Remax项目体积",
   "main": "index.js",

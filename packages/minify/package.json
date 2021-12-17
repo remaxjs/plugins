@@ -1,0 +1,26 @@
+{
+  "name": "@remax/plugin-minify",
+  "version": "1.0.0",
+  "description": "使用esbuild压缩Remax项目体积",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechat",
+    "miniprogram",
+    "remax"
+  ],
+  "author": "watsonhaw <watsonhaw@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4",
+    "esbuild-loader": "^2.17.0"
+  },
+  "devDependencies": {
+    "@types/webpack": "^4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

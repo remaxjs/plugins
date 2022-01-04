@@ -12,7 +12,7 @@ Remax 官方插件库。
 | [linaria](packages/linaria)    | Linaria 支持                        |
 | [wx-shake](packages/wx-shake)  | 移除微信 wx api 接口                    |
 | [minify](packages/minify)      | 使用 esbuild 进行 js 文件压缩             |
-| [babel-cache](packages/minify) | 使用 babel cache 配置 对进行 js 文件编译进行缓存 |
+| [babel-cache](packages/babel-cache) | 使用 babel cache 配置 对进行 js 文件编译进行缓存 |
 
 ## LICENSE
 

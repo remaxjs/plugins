@@ -1,0 +1,17 @@
+{
+  "name": "@remax/plugin-babel-cache",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remax Babel Cache 插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechat",
+    "miniprogram",
+    "remax"
+  ],
+  "author": "watsonhaw <watsonhaw@hotmail.com>",
+  "license": "MIT"
+}

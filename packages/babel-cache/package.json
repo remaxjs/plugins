@@ -1,7 +1,6 @@
 {
   "name": "@remax/plugin-babel-cache",
   "version": "1.0.0",
-  "private": true,
   "description": "Remax Babel Cache 插件",
   "main": "index.js",
   "scripts": {
@@ -13,5 +12,8 @@
     "remax"
   ],
   "author": "watsonhaw <watsonhaw@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }

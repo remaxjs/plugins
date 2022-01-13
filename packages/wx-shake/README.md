@@ -8,10 +8,13 @@
 
 ## 安装
 
+> 注意 string-replace-loader 版本需要是 2.3.0 请勿使用3以上的版本，3以上版本是适配 webpack5 ,Remax 2.0 版本暂不适用
+
 ```bash
-$ npm install @remax/plugin-wx-shake --save
-或者
-$ yarn add @remax/plugin-wx-shake -D
+$ npm install @remax/plugin-wx-shake string-replace-loader@2.3.0 --save
+or
+$ yarn add @remax/plugin-wx-shake  string-replace-loader@2.3.0 -D
+
 ```
 
 ## 使用
@@ -57,7 +60,7 @@ const WxShake = require('@remax/plugin-wx-shake');
 const apiList = ['getWeRunData']
 
 module.exports = {
-    plugins: [WxShake({apiList})],
+    plugins: [WxShake(apiList)],
 };
 ```
 

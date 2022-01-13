@@ -13,7 +13,14 @@ const defaultShakeApiList = [
     'addPhoneCalender',
     'saveFileToDisk',
 ]
-const WxShake = ({apiList}) => {
+
+const WxShake = (apiList = null) => {
+    let multipleList = []
+    if (apiList) {
+        multipleList = apiList
+    } else {
+        multipleList = defaultShakeApiList
+    }
     return {
         configWebpack({config}) {
             config.module
@@ -22,7 +29,7 @@ const WxShake = ({apiList}) => {
                 .use('string-replace-loader')
                 .loader('string-replace-loader')
                 .options({
-                    multiple: apiList !== undefined ? apiList : defaultShakeApiList
+                    multiple: multipleList
                         .map((search, index) => {
                             const replace = `REPLACEMENT${index}`; // or use random string
                             return [

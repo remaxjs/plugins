@@ -12,6 +12,8 @@ const defaultShakeApiList = [
     'addPhoneRepeatCalendar',
     'addPhoneCalender',
     'saveFileToDisk',
+    'startLocationUpdateBackground',
+    'startLocationUpdate',
 ]
 const WxShake = ({apiList}) => {
     return {
